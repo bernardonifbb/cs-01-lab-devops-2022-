@@ -17,6 +17,3 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 CMD ["newrelic-admin", "run-program", "gunicorn", "app:app"]
 
 
-
-
-
